@@ -1,0 +1,1 @@
+$result = mysqli_query($koneksi, "SELECT * FROM kamar INNER JOIN kategori ON kamar.id_kategori = kategori.id_kategori");
